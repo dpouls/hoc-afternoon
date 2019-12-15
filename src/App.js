@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Exchanged from './Components/CurrencyConverter'
 
 class App extends Component {
   render() {
     return (
-      <div>
-
-      </div>
+      <>
+      <h2>High Order Component</h2>
+        <Exchanged/>
+      </>
     );
   }
 }
